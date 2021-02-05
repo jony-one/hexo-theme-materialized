@@ -37,10 +37,10 @@ analytics: # Site analytics IDs
   baidu_site_id:
   cnzz_site_id:
 pages: # Custom page links. Set with `name` and `link`
-- name: Tags
-  link: /tags
-- name: Gallery
-  link: /gallery
+# - name: Tags
+#   link: /tags
+# - name: Gallery
+#   link: /gallery
 links: # Friendship links. Set with `name` and `link`
 - name: Github
   link: https://github.com
@@ -63,7 +63,7 @@ qrcode: # Qrcode for articles. if use `plugin`, `hexo-helper-qrcode` plugin is n
   use: plugin
 donate: # Use your payment qrcode or link to receive donations. Set with `name` and `link`
 search: # Search settings. if use `plugin`, `hexo-generator-search` plugin is needed and `path` should be set correctly
-  placeholder: Enter the key words
+  placeholder: 请输入关键词
   path: /search.xml
   use: plugin
 comment: # Comment plugin settings. Set `use` with the plugin name such as `gitalk`
