@@ -59,7 +59,7 @@ busuanzi: # Use `busuanzi` plugin to count website visits
   page: false
   busuanzi_js: http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 qrcode: # Qrcode for articles. if use `plugin`, `hexo-helper-qrcode` plugin is needed
-  caption: Send to mobile phone
+  caption: 发送到我的手机
   use: plugin
 donate: # Use your payment qrcode or link to receive donations. Set with `name` and `link`
 search: # Search settings. if use `plugin`, `hexo-generator-search` plugin is needed and `path` should be set correctly
