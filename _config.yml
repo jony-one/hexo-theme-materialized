@@ -45,7 +45,7 @@ links: # Friendship links. Set with `name` and `link`
 - name: Github
   link: https://github.com
 
-since: 2019 # Start year, use a 4-digit number. If you don't set the start year, there won't be a "since xxxx" on the bottom of your site
+since: 2020 # Start year, use a 4-digit number. If you don't set the start year, there won't be a "since xxxx" on the bottom of your site
 footer_text: # Additional text in footer, such as the record information. Support `<a>` tag
 license: # License description of every article. Support `<a>` tag
 
@@ -67,12 +67,12 @@ search: # Search settings. if use `plugin`, `hexo-generator-search` plugin is ne
   path: /search.xml
   use: plugin
 comment: # Comment plugin settings. Set `use` with the plugin name such as `gitalk`
-  use: false
+  use: gitalk
   disqus_shortname:
-  gitalk_client_id:
-  gitalk_client_secret:
-  gitalk_repo:
-  gitalk_owner:
+  gitalk_client_id: 1f3bd87bedab703ed26b
+  gitalk_client_secret: 7d0e550c44e851ee7d15da6e864896c0d742691b
+  gitalk_repo: https://github.com/jony-one/jony.github.io
+  gitalk_owner: jony-one
   livere_data_uid:
   valine_leancloud_app_id:
   valine_leancloud_app_key:
