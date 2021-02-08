@@ -71,7 +71,7 @@ comment: # Comment plugin settings. Set `use` with the plugin name such as `gita
   disqus_shortname:
   gitalk_client_id: 1f3bd87bedab703ed26b
   gitalk_client_secret: 7d0e550c44e851ee7d15da6e864896c0d742691b
-  gitalk_repo: https://github.com/jony-one/jony.github.io
+  gitalk_repo: jony.github.io
   gitalk_owner: jony-one
   livere_data_uid:
   valine_leancloud_app_id:
