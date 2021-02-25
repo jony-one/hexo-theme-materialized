@@ -24,6 +24,7 @@
       <% } else { %>
         <%- strip_html(truncate(post.content, {length: 80})) %>
       <% } %>
+      <br/>
       <a href="<%- url_for(post.link || post.path) %>"<% if (post.link) { %> target="_blank"<% } %>><%= __('more') %> >></a>
     </div>
     <footer class="mdui-card-actions">
