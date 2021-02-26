@@ -147,7 +147,7 @@
   </div>
 <% } %>
 <% var toc = toc(page.content, {class: 'toc'}) %>
-<% if (is_post() && page.toc && toc.length) { %>
+<% if (is_post()  && toc.length) { %>
   <div style="position: fixed !important; right: 16px; top: 30%;">
     <button class="mdui-fab mdui-fab-mini mdui-ripple" mdui-menu="{target: '#toc'}"><i class="mdui-icon material-icons">format_list_numbered</i></button>
     <ul class="mdui-menu" id="toc">

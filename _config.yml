@@ -43,7 +43,7 @@ pages: # Custom page links. Set with `name` and `link`
 #   link: /gallery
 links: # Friendship links. Set with `name` and `link`
 - name: Github
-  link: https://github.com
+  link: https://github.com/jony-one
 
 since: 2020 # Start year, use a 4-digit number. If you don't set the start year, there won't be a "since xxxx" on the bottom of your site
 footer_text: # Additional text in footer, such as the record information. Support `<a>` tag
@@ -66,6 +66,7 @@ search: # Search settings. if use `plugin`, `hexo-generator-search` plugin is ne
   placeholder: 请输入关键词
   path: /search.xml
   use: plugin
+toc: true
 comment: # Comment plugin settings. Set `use` with the plugin name such as `gitalk`
   use: gitalk
   disqus_shortname:
